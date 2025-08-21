@@ -15,7 +15,7 @@ public class Product
         StockQuantity = stockQuantity;
     }
 
-    public void UpdateStock(int quantity)
+    public void IncreaseStock(int quantity)
     {
         StockQuantity += quantity;
     }
