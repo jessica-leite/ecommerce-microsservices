@@ -1,0 +1,48 @@
+# Build Folders
+bin/
+obj/
+
+# VSCode settings
+.vscode/
+
+# Rider settings
+.idea/
+
+# User-specific files
+*.user
+*.suo
+*.userprefs
+*.pidb
+*.booproj
+
+# MonoDevelop
+*.pidb
+*.userprefs
+
+# Visual Studio cache
+*.cache
+*.vs/
+
+# Packages
+*.nupkg
+packages/
+.nuget/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Test results
+TestResults/
+*.trx
+
+# Publish output
+publish/
+*.publish.xml
+
+# Rider caches
+.idea/
+*.sln.iml
