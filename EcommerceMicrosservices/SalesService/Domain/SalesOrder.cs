@@ -1,4 +1,5 @@
 namespace SalesService.Domain;
+
 public class SalesOrder
 {
     public int Id { get; private set; }

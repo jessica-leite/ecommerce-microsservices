@@ -1,7 +1,10 @@
+using Microsoft.EntityFrameworkCore;
+using SalesService.Context;
+
 var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
    
-builder.Services.AddDbContext<OrganizadorContext>(options =>
+builder.Services.AddDbContext<SalesContext>(options =>
             options.UseMySql(
                 builder.Configuration.GetConnectionString("DefaultConnection"),
                 ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("DefaultConnection"))

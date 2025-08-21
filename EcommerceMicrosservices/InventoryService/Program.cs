@@ -1,8 +1,11 @@
+using InventoryService.Context;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-   
-builder.Services.AddDbContext<OrganizadorContext>(options =>
+
+builder.Services.AddDbContext<InventoryContext>(options =>
             options.UseMySql(
                 builder.Configuration.GetConnectionString("DefaultConnection"),
                 ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("DefaultConnection"))

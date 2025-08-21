@@ -1,4 +1,5 @@
 namespace SalesService.Domain;
+
 public class SalesItem
 {
     public int Id { get; private set; }
@@ -16,6 +17,6 @@ public class SalesItem
     // TODO reduce stock via API Gateway
     public void ReduceStock()
     {
-        return null;
+        
     }
 }
